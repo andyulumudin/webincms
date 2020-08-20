@@ -1,0 +1,302 @@
+html, body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body, div {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    position: relative;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 20px;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.d-none {
+    display: none;
+}
+.d-flex {
+    display: flex;
+}
+.justify-between {
+    justify-content: space-between;
+}
+
+/* Background & Color */
+
+.bg-primary {
+    background-color: #2640ae;
+}
+.bg-info {
+    background-color: #00bcd4;
+}
+.bg-success {
+    background-color: #4caf50;
+}
+.bg-danger {
+    background-color: #f44336;
+}
+.bg-warning {
+    background-color: #ff9800;
+}
+.bg-default {
+    background-color: #999999;
+}
+.bg-light {
+    background-color: #f5f5f5;
+}
+.color-primary {
+    color: #2640ae;
+}
+.color-info {
+    color: #00bcd4;
+}
+.color-success {
+    color: #4caf50;
+}
+.color-danger {
+    color: #f44336;
+}
+.color-warning {
+    color: #ff9800;
+}
+.color-default {
+    color: #999999;
+}
+/* Button */
+.btn {
+    position: relative;
+    padding: 12px 30px;
+    margin: .3125rem 1px;
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: 1.428571;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    border-radius: .2rem;
+    outline: 0;
+    transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1);
+    will-change: box-shadow,transform;
+}
+.btn.btn-primary {
+    color: #fff;
+    background-color: #2640ae;
+    border-color: #2640ae;
+}
+.btn.btn-info {
+    color: #ffffff;
+    background-color: #00bcd4;
+    border-color: #00bcd4;
+}
+.btn.btn-success {
+    color: #ffffff;
+    background-color: #4caf50;
+    border-color: #4caf50;
+}
+.btn.btn-danger {
+    color: #ffffff;
+    background-color: #f44336;
+    border-color: #f44336;
+}
+.btn.btn-warning {
+    color: #ffffff;
+    background-color: #ff9800;
+    border-color: #ff9800;
+}
+.btn.btn-default {
+    color: #ffffff;
+    background-color: #999999;
+    border-color: #999999;
+}
+.btn.btn-secondary {
+    color: rgba(0,0,0,.87);
+    background-color: #fafafa;
+    border-color: #ccc;
+}
+.btn.btn-round {
+    border-radius: 30px;
+}
+.btn.btn-fab {
+    font-size: 24px;
+    height: 41px;
+    min-width: 41px;
+    width: 41px;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    line-height: 41px;
+}
+.btn.btn-sm {
+    padding: .40625rem 1.25rem;
+    font-size: .6875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+}
+.btn.btn-lg {
+    padding: 1.125rem 2.25rem;
+    font-size: .875rem;
+    line-height: 1.333333;
+    border-radius: .2rem;
+}
+
+/* App Bar */
+.app__bar {
+    position: fixed;
+    width: 60px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #2640ae;
+    color: #ffffff;
+    font-size: 1.8rem;
+}
+.app__bar a {
+    color: #ffffff;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.app__bar .app__logo {
+    background-color: rgba(0,0,0,.2);
+}
+.app__bar .app__menu {
+    flex-grow: 1;
+    padding-top: 1rem;
+}
+.app__bar .app__menu a {
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.app__bar .app__menu a::before {
+    content: '';
+    display: none;
+    width: 48px;
+    height: 48px;
+    border-radius: 25px;
+    position: absolute;
+    background-color: rgba(0,0,0,.2);
+    z-index: -1;
+}
+.app__bar .app__menu a:hover::before {
+    display: block;
+}
+.app__bar .app__user {
+    padding-bottom: 1rem;
+}
+.app__bar .app__user a {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.app__bar .app__user a:hover {
+    background-color: rgba(0,0,0,.2);
+}
+/* Sidebar */
+#sidebar {
+    background-color: #fff;
+    position: fixed;
+    display: block;
+    left: -200px;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    transition: all .5s ease-in-out;
+    box-shadow: 5px 0 10px rgba(0,0,0,.2);
+}
+#sidebar.active {
+    left: 60px;
+}
+.sidebar__wrapper {
+    position: relative;
+    padding: 10px;
+}
+.close__app {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 1.3rem;
+    color: #444444;
+}
+.sidebar__title {
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar__nav--wrapper {
+    margin-top: 20px;
+    display: none;
+}
+.sidebar__nav--wrapper.active {
+    display: block;
+}
+.sidebar__nav--title {
+    font-size: .7rem;
+    color: #42526e;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.sidebar__nav--list {
+    margin-top: 10px;
+}
+.sidebar__nav--list li a {
+    font-size: .8rem;
+    color: #42526e;
+    display: block;
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+.sidebar__nav--list li a:hover {
+    background-color: #f7f7f7;
+}
+/* Main Content */
+#main {
+    padding-left: 60px;
+}
+.main__content {
+    padding: 15px;
+}
+.page--title {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+.page--subtitle {
+    font-size: .9rem;
+    color: #999999;
+}
+.page__content {
+    margin-top: 2rem;
+}
+.card {
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 32%;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+.card--header {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+}
+.card--body {
+    padding: 20px;
+}

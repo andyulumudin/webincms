@@ -1,0 +1,77 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+.form-container {
+    display: flex;
+    position: relative;
+}
+
+.banner-wrapper {
+    width: 45%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-right: 1px solid #ccc;
+    position: relative;
+    height: 100vh;
+}
+
+.form-wrapper {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.registration-form {
+    width: 50%;
+}
+
+.form-title {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.form-text {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.input-text {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: #eeeeee;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+
+.btn-submit {
+    font-size: 1.1rem;
+    border: 0;
+    background-color: #514da3;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    width: 150px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.fw-light {
+    font-weight: 300;
+}
+
+.w-100 {
+    width: 100%;
+}

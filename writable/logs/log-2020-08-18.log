@@ -1,0 +1,793 @@
+CRITICAL - 2020-08-18 05:39:03 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 05:39:09 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 05:42:01 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 05:42:15 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 07:48:23 --> Invalid file: index.php
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('index', Array, true)
+#2 /Volumes/Storage/WWW/appci4/app/Controllers/Dashboard.php(12): view('index', Array)
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-18 07:50:48 --> Undefined property: CodeIgniter\View\View::$session
+#0 /Volumes/Storage/WWW/appci4/app/Views/index.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Volumes/Storag...', 2, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(246): include('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('index', Array, true)
+#3 /Volumes/Storage/WWW/appci4/app/Controllers/Dashboard.php(12): view('index', Array)
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#5 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-18 07:52:29 --> Call to undefined method CodeIgniter\Session\Session::get_data()
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(246): include()
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('index', Array, true)
+#2 /Volumes/Storage/WWW/appci4/app/Controllers/Dashboard.php(12): view('index', Array)
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-18 07:52:45 --> Call to undefined function GcheckCookie()
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(246): include()
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('index', Array, true)
+#2 /Volumes/Storage/WWW/appci4/app/Controllers/Dashboard.php(12): view('index', Array)
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-18 08:11:59 --> Use of undefined constant VIEWPATH - assumed 'VIEWPATH' (this will throw an Error in a future version of PHP)
+#0 /Volumes/Storage/WWW/appci4/app/Views/login.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/Volumes/Storag...', 6, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(246): include('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#3 /Volumes/Storage/WWW/appci4/app/Views/index.php(8): view('login')
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(246): include('/Volumes/Storag...')
+#5 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('index', Array, true)
+#6 /Volumes/Storage/WWW/appci4/app/Controllers/Dashboard.php(12): view('index', Array)
+#7 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#8 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-08-18 08:15:11 --> Use of undefined constant VIEWPATH - assumed 'VIEWPATH' (this will throw an Error in a future version of PHP)
+#0 /Volumes/Storage/WWW/appci4/app/Views/login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/Volumes/Storag...', 28, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(246): include('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#3 /Volumes/Storage/WWW/appci4/app/Views/index.php(8): view('login')
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(246): include('/Volumes/Storag...')
+#5 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('index', Array, true)
+#6 /Volumes/Storage/WWW/appci4/app/Controllers/Dashboard.php(12): view('index', Array)
+#7 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#8 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-08-18 08:15:36 --> Call to undefined function validation_errors()
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(246): include()
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#2 /Volumes/Storage/WWW/appci4/app/Views/index.php(8): view('login')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(246): include('/Volumes/Storag...')
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('index', Array, true)
+#5 /Volumes/Storage/WWW/appci4/app/Controllers/Dashboard.php(12): view('index', Array)
+#6 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#7 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-18 08:15:45 --> Undefined property: CodeIgniter\View\View::$session
+#0 /Volumes/Storage/WWW/appci4/app/Views/login.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Volumes/Storag...', 24, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(246): include('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#3 /Volumes/Storage/WWW/appci4/app/Views/index.php(8): view('login')
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(246): include('/Volumes/Storag...')
+#5 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('index', Array, true)
+#6 /Volumes/Storage/WWW/appci4/app/Controllers/Dashboard.php(12): view('index', Array)
+#7 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#8 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-08-18 08:15:50 --> Call to undefined function set_value()
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(246): include()
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#2 /Volumes/Storage/WWW/appci4/app/Views/index.php(8): view('login')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(246): include('/Volumes/Storag...')
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('index', Array, true)
+#5 /Volumes/Storage/WWW/appci4/app/Controllers/Dashboard.php(12): view('index', Array)
+#6 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#7 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-18 08:19:22 --> Undefined variable: validation
+#0 /Volumes/Storage/WWW/appci4/app/Views/login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 23, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(246): include('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#3 /Volumes/Storage/WWW/appci4/app/Views/index.php(8): view('login')
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(246): include('/Volumes/Storag...')
+#5 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('index', Array, true)
+#6 /Volumes/Storage/WWW/appci4/app/Controllers/Dashboard.php(12): view('index', Array)
+#7 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#8 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-08-18 08:21:13 --> Undefined property: CodeIgniter\View\View::$session
+#0 /Volumes/Storage/WWW/appci4/app/Views/login.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Volumes/Storag...', 26, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(246): include('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#3 /Volumes/Storage/WWW/appci4/app/Views/index.php(8): view('login')
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(246): include('/Volumes/Storag...')
+#5 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('index', Array, true)
+#6 /Volumes/Storage/WWW/appci4/app/Controllers/Dashboard.php(12): view('index', Array)
+#7 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#8 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-08-18 08:22:10 --> Undefined variable: session
+#0 /Volumes/Storage/WWW/appci4/app/Views/login.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 26, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(246): include('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#3 /Volumes/Storage/WWW/appci4/app/Views/index.php(8): view('login')
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(246): include('/Volumes/Storag...')
+#5 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('index', Array, true)
+#6 /Volumes/Storage/WWW/appci4/app/Controllers/Dashboard.php(12): view('index', Array)
+#7 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#8 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-08-18 08:22:31 --> Call to undefined function set_value()
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(246): include()
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#2 /Volumes/Storage/WWW/appci4/app/Views/index.php(8): view('login')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(246): include('/Volumes/Storag...')
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('index', Array, true)
+#5 /Volumes/Storage/WWW/appci4/app/Controllers/Dashboard.php(12): view('index', Array)
+#6 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#7 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-18 08:24:11 --> Call to undefined function set_value()
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(246): include()
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#2 /Volumes/Storage/WWW/appci4/app/Views/index.php(8): view('login')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(246): include('/Volumes/Storag...')
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('index', Array, true)
+#5 /Volumes/Storage/WWW/appci4/app/Controllers/Dashboard.php(12): view('index', Array)
+#6 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#7 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-18 08:37:43 --> CodeIgniter\View\View::main(): Failed opening required 'login' (include_path='.:/Applications/MAMP/bin/php/php7.4.2/lib/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 08:38:06 --> require(login): failed to open stream: No such file or directory
+#0 /Volumes/Storage/WWW/appci4/app/Views/index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(login):...', '/Volumes/Storag...', 6, Array)
+#1 /Volumes/Storage/WWW/appci4/app/Views/index.php(6): require()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(246): include('/Volumes/Storag...')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('index', Array, true)
+#4 /Volumes/Storage/WWW/appci4/app/Controllers/Dashboard.php(12): view('index', Array)
+#5 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#6 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-18 08:39:02 --> require(login): failed to open stream: No such file or directory
+#0 /Volumes/Storage/WWW/appci4/app/Views/index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(login):...', '/Volumes/Storag...', 6, Array)
+#1 /Volumes/Storage/WWW/appci4/app/Views/index.php(6): require()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(246): include('/Volumes/Storag...')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('index', Array, true)
+#4 /Volumes/Storage/WWW/appci4/app/Controllers/Dashboard.php(12): view('index', Array)
+#5 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#6 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-18 08:44:27 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 08:45:34 --> Call to undefined function App\Controllers\get_cookie()
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Login->index()
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-18 08:46:12 --> syntax error, unexpected '$session' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('login')
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('login')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-18 08:46:21 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 08:46:30 --> syntax error, unexpected '$session' (T_VARIABLE)
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('login')
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('login')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-18 08:47:17 --> syntax error, unexpected 'has_userdata' (T_STRING)
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('login')
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('login')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-18 08:47:33 --> syntax error, unexpected 'set_flashdata' (T_STRING)
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('login')
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('login')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-18 08:47:52 --> syntax error, unexpected 'set_userdata' (T_STRING)
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('login')
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('login')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-18 08:48:48 --> syntax error, unexpected 'userdata' (T_STRING)
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('login')
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('login')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-18 08:50:00 --> syntax error, unexpected 'userdata' (T_STRING)
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('login')
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('login')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-18 08:50:14 --> Undefined property: App\Controllers\Login::$input
+#0 /Volumes/Storage/WWW/appci4/app/Controllers/Login.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Volumes/Storag...', 65, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Login->index()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-18 08:54:55 --> Cannot call constructor
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(890): App\Controllers\Login->__construct()
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-18 08:56:42 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 08:56:52 --> syntax error, unexpected 'var' (T_VAR), expecting variable (T_VARIABLE)
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('login')
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('login')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-18 08:56:59 --> syntax error, unexpected '$request' (T_VARIABLE)
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('login')
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('login')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-18 08:57:08 --> syntax error, unexpected '$request' (T_VARIABLE)
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('login')
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('login')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-18 08:57:16 --> syntax error, unexpected '$request' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('login')
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('login')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-18 08:57:24 --> Undefined variable: request
+#0 /Volumes/Storage/WWW/appci4/app/Controllers/Login.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 67, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Login->index()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-18 08:57:33 -->  route cannot be found while reverse-routing.
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /Volumes/Storage/WWW/appci4/app/Controllers/Login.php(71): redirect('http://localhos...')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Login->index()
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-18 08:59:45 -->  route cannot be found while reverse-routing.
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /Volumes/Storage/WWW/appci4/app/Controllers/Login.php(71): redirect('http://localhos...')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Login->index()
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-18 09:04:55 --> Class 'BaseController' not found
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(583): include_once()
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('about')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('about')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-18 09:04:55 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 09:05:08 --> Class 'App\Controllers\BaseController' not found
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(583): include_once()
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('about')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('about')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-18 09:05:08 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 09:06:45 --> Class 'Auth\Controllers\BaseController' not found
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(583): include_once()
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('about')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('about')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-18 09:06:45 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 09:06:50 --> Class 'Auth\Controllers\AuthController' not found
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(583): include_once()
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('about')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('about')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-18 09:06:50 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 09:06:52 --> Class 'Auth\Controllers\AuthController' not found
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(583): include_once()
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('about')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('about')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-18 09:06:52 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 09:07:11 --> Class 'App\Controllerss\AuthController' not found
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(583): include_once()
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('about')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('about')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-18 09:07:11 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 09:07:12 --> Class 'App\Controllerss\AuthController' not found
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(583): include_once()
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('about')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('about')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-18 09:07:12 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 09:07:18 --> Class 'App\Controllerss\AuthController' not found
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(583): include_once()
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('about')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('about')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-18 09:07:18 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 21:09:12 --> syntax error, unexpected ')'
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Commands/Database/Seed.php(124): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CLI/Commands.php(100): CodeIgniter\Commands\Database\Seed->run(Array)
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(107): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index(Array)
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(914): CodeIgniter\CLI\CommandRunner->_remap('index', 'db:seed', 'SampleBlog')
+#5 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#6 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CLI/Console.php(86): CodeIgniter\CodeIgniter->run()
+#8 /Volumes/Storage/WWW/appci4/spark(57): CodeIgniter\CLI\Console->run()
+#9 {main}
+CRITICAL - 2020-08-18 21:09:12 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 21:34:29 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 21:35:01 --> Invalid file: pages/about.php
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/about.php')
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('pages/about', Array, true)
+#2 /Volumes/Storage/WWW/appci4/app/Controllers/Page.php(21): view('pages/about')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Page->view('about')
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-18 21:35:01 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 21:35:17 --> Invalid file: pages/about.php
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/about.php')
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('pages/about', Array, true)
+#2 /Volumes/Storage/WWW/appci4/app/Controllers/Page.php(21): view('pages/about')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Page->view('about')
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-18 21:35:17 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 22:28:49 --> Argument 2 passed to view() must be of the type array, string given, called in /Volumes/Storage/WWW/appci4/app/Controllers/Asset.php on line 24
+#0 /Volumes/Storage/WWW/appci4/app/Controllers/Asset.php(24): view('demo.png', '', true)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Asset->static('demo.png')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asset))
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-18 22:28:49 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 22:33:53 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 26, Array)
+#1 /Volumes/Storage/WWW/appci4/app/Controllers/Asset.php(26): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Asset->static('demo.png')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asset))
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-18 22:33:53 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 22:34:41 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 26, Array)
+#1 /Volumes/Storage/WWW/appci4/app/Controllers/Asset.php(26): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Asset->static('demo.png')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asset))
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-18 22:34:41 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 22:34:58 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 26, Array)
+#1 /Volumes/Storage/WWW/appci4/app/Controllers/Asset.php(26): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Asset->static('demo.png')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asset))
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-18 22:34:58 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 22:36:08 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 26, Array)
+#1 /Volumes/Storage/WWW/appci4/app/Controllers/Asset.php(26): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Asset->static('style.css')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asset))
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-18 22:36:08 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 22:36:43 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 26, Array)
+#1 /Volumes/Storage/WWW/appci4/app/Controllers/Asset.php(26): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Asset->static('style.css')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asset))
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-18 22:36:43 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 22:36:51 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 26, Array)
+#1 /Volumes/Storage/WWW/appci4/app/Controllers/Asset.php(26): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Asset->static('style.css')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asset))
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-18 22:36:51 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 22:36:55 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 26, Array)
+#1 /Volumes/Storage/WWW/appci4/app/Controllers/Asset.php(26): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Asset->static('style.css')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asset))
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-18 22:36:55 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 22:37:51 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 26, Array)
+#1 /Volumes/Storage/WWW/appci4/app/Controllers/Asset.php(26): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Asset->static('demo.txt')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asset))
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-18 22:37:51 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 22:38:36 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 26, Array)
+#1 /Volumes/Storage/WWW/appci4/app/Controllers/Asset.php(26): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Asset->static('demo.txt')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asset))
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-18 22:38:36 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 22:41:25 --> Argument 2 passed to view() must be of the type array, string given, called in /Volumes/Storage/WWW/appci4/app/Controllers/Asset.php on line 28
+#0 /Volumes/Storage/WWW/appci4/app/Controllers/Asset.php(28): view('static/demo.txt', '', true)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Asset->static('demo.txt')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asset))
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-18 22:41:25 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 22:42:32 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 26, Array)
+#1 /Volumes/Storage/WWW/appci4/app/Controllers/Asset.php(26): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Asset->static('demo.png')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asset))
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-18 22:42:32 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 22:42:39 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 26, Array)
+#1 /Volumes/Storage/WWW/appci4/app/Controllers/Asset.php(26): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Asset->static('demo.png')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asset))
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-18 22:42:39 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-18 22:42:53 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 26, Array)
+#1 /Volumes/Storage/WWW/appci4/app/Controllers/Asset.php(26): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Asset->static('demo.png')
+#3 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asset))
+#4 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/appci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-18 22:42:53 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/appci4/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

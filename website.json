@@ -1,0 +1,6 @@
+{
+    "name": "WebinCMS",
+    "description": "Website Content Management System",
+    "adminurl": "admin",
+    "default_theme": "default"
+}
