@@ -20,7 +20,9 @@
             <div class="registration-form">
                 <h3 class="form-title">WebinCMS</h3>
                 <p class="form-text">Login to your admin account.</p>
-
+                <?php if(session()->getFlashdata('alert')) { ?>
+                    <div class="alert alert-warning"><?= session()->getFlashdata('alert'); ?></div>
+                <?php } ?>
                 <form name="logingorm" action="<?= base_url('admin/auth'); ?>" method="post">
                     <?= csrf_field() ?>
                     <div class="form-group">

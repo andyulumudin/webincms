@@ -1,7 +1,13 @@
 <?php namespace App\Controllers\Backend;
 
+use App\Models\UsersModel;
+
 class Login extends AuthController
 {
+	public function __construct() {
+        $this->user = new UsersModel();
+	}
+
 	public function index()
 	{	
 		return view('login');
@@ -9,23 +15,32 @@ class Login extends AuthController
 
 	public function auth()
 	{	
-		$request = \Config\Services::request();
-		$username = $request->getPost('username');
-		$password = $request->getPost('password');
-
-		$db      = \Config\Database::connect('default');
-		$builder = $db->table('users');
-		$builder->where('users_name', $username);
-		$builder->where('users_password', md5($password));
-		$query = $builder->get();
-		foreach ($query->getResult() as $row)
-		{
-			$this->session->set('login',true);
-			$this->session->set('user_id',$row->users_id);
-			$this->session->set('user_name',$row->users_name);
+		$rules = [
+			'username' => 'required',
+			'password' => 'required|passcheck'
+		];
+		if(!$this->validate($rules)) {
+			session()->setFlashdata('alert', $this->validation);
+			return redirect('admin/login');
+		} else {
+			$username = $this->request->getPost('username');
+			$password = $this->request->getPost('password');
+			$auth = $this->user->authUser($username, $password);
+			
+			if($auth) {
+				$userData = [
+					'user_id'  		=> $auth['user_id'],
+					'user_email'    => $auth['user_email'],
+					'login' 		=> TRUE
+				];
+				
+				session()->set($userData);
+				return redirect('admin');
+			} else {
+				return redirect('admin/login');
+			}	
 		}
-		
-		return redirect('admin/dashboard');
+		   
 	}
 
 	//--------------------------------------------------------------------
