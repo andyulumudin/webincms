@@ -1,0 +1,9 @@
+__ci_last_regenerate|i:1598176051;_ci_previous_url|s:48:"http://localhost/webincms/public/admin/media/add";user_id|s:1:"1";user_email|s:18:"admin@webincms.com";login|b:1;alert|s:236:"<!-- DEBUG-VIEW START 1 SYSTEMPATH/Validation/Views/list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>The excerpt field is required.</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH/Validation/Views/list.php -->
+";__ci_vars|a:1:{s:5:"alert";s:3:"new";}
