@@ -1,0 +1,448 @@
+CRITICAL - 2020-08-23 04:08:36 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-23 04:08:37 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-23 04:10:06 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-23 04:10:06 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-23 04:11:48 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-23 04:11:48 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-23 04:18:13 --> Column 'user_id' cannot be null
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `co...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /Volumes/Storage/WWW/webincms/app/Models/ContentModel.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Page.php(62): App\Models\ContentModel->insertContent(Array)
+#6 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Page->add()
+#7 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Page))
+#8 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-23 04:18:13 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-23 04:22:19 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-athena-2...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-23 04:22:19 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-23 04:22:24 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-23 04:22:24 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-23 04:23:28 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-23 04:23:28 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-23 04:24:52 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-23 04:24:52 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-23 04:25:43 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-23 04:25:43 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-23 04:27:56 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-23 04:27:57 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-23 04:27:59 --> Undefined variable: post
+#0 /Volumes/Storage/WWW/webincms/app/Views/page/edit.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 27, Array)
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/View/View.php(246): include('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('page/edit', Array, true)
+#3 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Page.php(88): view('page/edit', Array)
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Page->edit('5')
+#5 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Page))
+#6 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 04:27:59 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-23 04:34:05 --> Undefined variable: excerpt
+#0 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Page.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 103, Array)
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Page->edit('5')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Page))
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 04:34:05 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-23 04:35:00 --> Undefined variable: excerpt
+#0 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Page.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 103, Array)
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Page->edit('5')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Page))
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 04:35:00 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-23 04:35:33 --> Undefined variable: excerpt
+#0 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Page.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 103, Array)
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Page->edit('5')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Page))
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 04:35:33 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-23 04:35:45 --> Undefined variable: excerpt
+#0 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Page.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 103, Array)
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Page->edit('5')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Page))
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 04:35:45 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-23 04:35:52 --> Undefined variable: excerpt
+#0 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Page.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 103, Array)
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Page->edit('5')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Page))
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 04:35:52 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-23 04:36:25 --> Undefined variable: excerpt
+#0 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Page.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 103, Array)
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Page->edit('5')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Page))
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 04:36:25 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-23 04:36:47 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-23 04:36:47 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-23 04:36:54 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-23 04:36:54 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-23 04:37:42 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-23 04:37:42 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-23 04:48:54 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-23 04:48:55 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-23 04:49:10 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-23 04:49:10 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-23 04:49:24 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-23 04:49:24 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-23 04:49:28 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-23 04:49:28 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
