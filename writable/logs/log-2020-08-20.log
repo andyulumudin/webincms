@@ -17,3 +17,1085 @@ Stack trace:
   thrown
 #0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
 #1 {main}
+CRITICAL - 2020-08-20 09:40:28 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-athena-2...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 09:40:28 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 18:43:09 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-athena-2...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 18:43:10 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 19:05:55 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-athena-2...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 19:05:55 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:25:10 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:25:10 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:26:20 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:26:20 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:26:38 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:26:38 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:27:30 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:27:30 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:27:36 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:27:36 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:28:11 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:28:11 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:29:36 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:29:36 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:29:45 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:29:45 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:29:49 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:29:49 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:30:00 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:30:00 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:30:04 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:30:04 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:30:13 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:30:13 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:30:46 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:30:46 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:30:54 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:30:54 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:34:21 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:34:21 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:34:49 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:34:49 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:35:02 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:35:02 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:37:04 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:37:04 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:37:42 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:37:42 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:39:13 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:39:14 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:40:46 --> syntax error, unexpected '++' (T_INC), expecting variable (T_VARIABLE) or '{' or '$'
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('dashboard', Array, true)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Dashboard.php(9): view('dashboard', Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Dashboard->index()
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:40:46 --> Uncaught ErrorException: Undefined variable: viewFile in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php:308
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Volumes/Storag...', 308, Array)
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include()
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:40:53 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:40:53 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:45:34 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:45:34 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:45:34 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:45:34 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:48:16 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:48:16 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:48:31 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:48:31 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:48:57 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:48:57 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:49:06 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:49:06 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:50:13 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:50:13 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:50:29 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:50:29 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:51:31 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:51:31 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:52:40 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:52:40 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:53:05 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:53:05 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:53:46 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:53:46 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:54:28 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:54:28 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:54:45 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:54:45 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:55:00 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:55:00 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:55:09 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:55:09 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:55:21 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:55:21 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:56:13 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:56:13 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:57:21 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:57:21 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:58:38 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:58:38 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:58:45 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:58:45 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:59:01 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:59:01 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 20:59:22 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 20:59:22 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 21:03:36 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 21:03:36 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 21:39:24 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 21:39:24 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 21:39:58 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 21:39:58 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 21:40:00 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 21:40:00 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 21:40:24 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 21:40:24 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 21:40:24 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 21:40:24 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 21:45:14 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 21:45:14 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 21:45:14 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 21:45:14 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-20 21:45:21 --> fclose() expects parameter 1 to be resource, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fclose() expect...', '/Volumes/Storag...', 34, Array)
+#1 /Volumes/Storage/WWW/webincms/app/Controllers/Backend/Asset.php(34): fclose('/Volumes/Storag...')
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Asset->static('img', 'pexels-pixabay-...')
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Asset))
+#4 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Volumes/Storage/WWW/webincms/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-20 21:45:21 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Volumes/Storage/WWW/webincms/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

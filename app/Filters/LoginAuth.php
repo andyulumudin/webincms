@@ -9,11 +9,10 @@ class LoginAuth implements FilterInterface
     public function before(RequestInterface $request, $arguments = null)
     {
         // Authentication Check
-        $session = session();
 
-        if ($session->login == true)
+        if (session()->login === true)
         {
-            return redirect('admin/dashboard');
+            return redirect('admin');
         }
     }
 

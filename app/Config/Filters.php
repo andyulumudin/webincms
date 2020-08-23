@@ -11,7 +11,7 @@ class Filters extends BaseConfig
 		'toolbar'  => \CodeIgniter\Filters\DebugToolbar::class,
 		'honeypot' => \CodeIgniter\Filters\Honeypot::class,
 		'login-auth' => \App\Filters\LoginAuth::class,
-		'web-auth' => \App\Filters\WebAuth::class,
+		'admin-auth' => \App\Filters\AdminAuth::class,
 	];
 
 	// Always applied before every request
