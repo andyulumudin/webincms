@@ -13,8 +13,8 @@
 	</div>
 
 	<div class="page__header">
-		<h1 class="media--title"><?= $title; ?></h1>
-		<div class="media--subtitle"><?= $subtitle; ?></div>
+		<h1 class="page--title"><?= $title; ?></h1>
+		<div class="page--subtitle"><?= $subtitle; ?></div>
 	</div>
 	<div class="page__content mt-10">
 	<?php if(session()->getFlashdata('info')) { ?>

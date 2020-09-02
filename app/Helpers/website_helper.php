@@ -24,3 +24,16 @@ if(!function_exists('website')) {
         }
     }
 }
+if(!function_exists('setting')) {
+    function setting($name = false) {
+        if($name !== false) {
+            $db = \Config\Database::connect();
+            $data = $db->table('setting')->where('setting_name', $name)->get()->getResultArray();
+            
+            if(count($data) > 0) {
+                return $data[0]['setting_value'];
+            }
+        }
+        return false;
+    }
+}

@@ -9,7 +9,7 @@
 			<div class="mods--subtitle"><?= $subtitle; ?></div>
 		</div>
 		<div class="">
-			<a href="<?= base_url('admin/users'); ?>" onclick="return confirm('Are you want to cancel this form?');" class="btn btn-sm btn-secondary" onclick="$('#publish').val(0);$('#addmedia').submit();">Draft</a>
+			<a onclick="return confirm('Are you want to cancel this form?');" class="btn btn-sm btn-secondary" onclick="$('#publish').val(0);$('#addmedia').submit();">Draft</a>
 			<a class="btn btn-sm btn-primary" onclick="$('#addmedia').submit();">Save</a>
 		</div>
 	</div>
@@ -47,12 +47,11 @@
 						Language
 					</div>
 					<div class="card--body">
-						<table class="table table-border">
-							<tr>
-								<td>English</td>
-								<td class="align-right">Default</td>
-							</tr>
-						</table>
+						<select class="input-text" name="language">
+							<option value="">All Language</option>
+							<option value="id">Indonesia</option>
+							<option value="en">English</option>
+						</select>
 					</div>
 				</div>
 				<div class="card mb-20">

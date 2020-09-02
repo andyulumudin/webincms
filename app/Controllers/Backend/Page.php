@@ -42,6 +42,7 @@ class Page extends AuthController
 			$meta_desc = $this->request->getPost('meta_desc');
 			$publish_date = date('Y-m-d');
 			$publish = $this->request->getPost('publish');
+			$language = $this->request->getPost('language');
 			
 			$data = [
 				'user_id' => $user_id,
@@ -55,6 +56,7 @@ class Page extends AuthController
 				'content_meta_desc' => $meta_desc,
 				'content_publish_date' => $publish_date,
 				'content_status' => $publish,
+				'content_lang' => $language,
 			];
 			
 			$saved = $this->content->insertContent($data);
@@ -62,7 +64,7 @@ class Page extends AuthController
 			if($saved)
 			{
 				session()->setFlashdata('info', 'Page has been added');
-				return redirect()->to(base_url('admin/page'));
+				return redirect()->to(base_url(ADMINURL.'/page'));
 			}
 		}
     }
@@ -72,7 +74,7 @@ class Page extends AuthController
 	public function edit($id)
 	{
 		$rules = [
-			'title' => 'required|is_unique[content.content_title]',
+			'title' => 'required|is_unique[content.content_title, content_id, {id}]',
 			'body' => 'required',
 		];
 
@@ -94,6 +96,7 @@ class Page extends AuthController
 			$meta_title = $this->request->getPost('meta_title');
 			$meta_desc = $this->request->getPost('meta_desc');
 			$publish = $this->request->getPost('publish');
+			$language = $this->request->getPost('language');
 
 			$data = [
 				'updated_at' => $updated_at,
@@ -104,14 +107,15 @@ class Page extends AuthController
 				'content_meta_title' => $meta_title,
 				'content_meta_desc' => $meta_desc,
 				'content_status' => $publish,
+				'content_lang' => $language,
 			];
 			
 			$saved = $this->content->updateContent($data, $id);
 			
 			if($saved)
 			{
-				session()->setFlashdata('info', 'Page has been added');
-				return redirect()->to(base_url('admin/page'));
+				session()->setFlashdata('info', 'Page has been updated');
+				return redirect()->to(base_url(ADMINURL.'/page'));
 			}
 		}
 	}
@@ -125,7 +129,7 @@ class Page extends AuthController
         if($deleted)
         {
             session()->setFlashdata('info', 'Deleted page successfully');
-            return redirect()->to(base_url('admin/page'));
+            return redirect()->to(base_url(ADMINURL.'/page'));
         }
     }
 

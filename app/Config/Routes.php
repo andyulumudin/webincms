@@ -50,56 +50,66 @@ $routes->group(ADMINURL, ['filter' => 'login-auth'], function ($routes) {
 // Admin Page
 $routes->group(ADMINURL, ['filter' => 'admin-auth'], function ($routes) {
 	$routes->setDefaultNamespace('App\Controllers\\'.BACKEND);
-	$routes->add('', 'Dashboard::index');							// Done
+	$routes->add('', 'Dashboard::index');									// Done
 	// -------- Post --------
-	$routes->add('post', 'Post::index');							// --
-	$routes->add('post/add', 'Post::add');							// --
-	$routes->add('post/edit/(:num)', 'Post::edit/$1');				// --
-	$routes->add('post/delete/(:num)', 'Post::delete/$1');			// --
+	$routes->add('post', 'Post::index');									// Done
+	$routes->add('post/add', 'Post::add');									// Done
+	$routes->add('post/edit/(:num)', 'Post::edit/$1');						// Done
+	$routes->add('post/delete/(:num)', 'Post::delete/$1');					// Done
+	$routes->add('post/section', 'Post::section');							// Done
+	$routes->add('post/addsection', 'Post::addsection');					// Done
+	$routes->add('post/updatesection', 'Post::updatesection');				// Done
+	$routes->add('post/deletesection/(:num)', 'Post::deletesection/$1');	// Done
 	// -------- Page --------
-	$routes->add('page', 'Page::index');							// --
-	$routes->add('page/add', 'Page::add');							// --
-	$routes->add('page/edit/(:num)', 'Page::edit/$1');				// --
-	$routes->add('page/delete/(:num)', 'Page::delete/$1');			// --
+	$routes->add('page', 'Page::index');									// Done
+	$routes->add('page/add', 'Page::add');									// Done
+	$routes->add('page/edit/(:num)', 'Page::edit/$1');						// Done
+	$routes->add('page/delete/(:num)', 'Page::delete/$1');					// Done
 	// -------- Media --------
-	$routes->add('media', 'Media::index');							// --
-	$routes->add('media/add', 'Media::add');						// --
-	$routes->add('media/edit/(:num)', 'Media::edit/$1');			// --
-	$routes->add('media/delete/(:num)', 'Media::delete/$1');		// --
+	$routes->add('media', 'Media::index');									// Done
+	$routes->add('media/add', 'Media::add');								// Done
+	$routes->add('media/edit/(:num)', 'Media::edit/$1');					// Done
+	$routes->add('media/delete/(:num)', 'Media::delete/$1');				// Done
 	// -------- Files --------
-	$routes->add('files', 'Files::index');							// --
-	$routes->add('files/add', 'Files::add');						// --
-	$routes->add('files/edit/(:num)', 'Files::edit/$1');			// --
-	$routes->add('files/delete/(:num)', 'Files::delete/$1');		// --
+	$routes->add('files', 'Files::index');									// Done
+	$routes->add('files/upload', 'Files::upload');							// Done
+	$routes->add('files/edit/(:num)', 'Files::edit/$1');					// Done
+	$routes->add('files/delete/(:num)', 'Files::delete/$1');				// Done
+	$routes->add('files/modal', 'Files::modal');							// ----
+	// -------- Template --------
+	$routes->add('template', 'Template::index');							// Done
+	$routes->add('template/update', 'Template::update');					// Done
+	$routes->add('template/default', 'Template::default');					// ----
+	$routes->add('template/(:any)', 'Template::index/$1');					// Done
 	// -------- Menu --------
-	$routes->add('menu', 'Menu::index');							// --
-	$routes->add('menu/add', 'Menu::add');							// --
-	$routes->add('menu/edit/(:num)', 'Menu::edit/$1');				// --
-	$routes->add('menu/delete/(:num)', 'Menu::delete/$1');			// --
+	$routes->add('menu', 'Menu::index');									// Done
+	$routes->add('menu/add', 'Menu::add');									// Done
+	$routes->add('menu/default/(:num)', 'Menu::default/$1');				// Done
+	$routes->add('menu/update', 'Menu::update');							// Done
+	$routes->add('menu/delete/(:num)', 'Menu::delete/$1');					// Done
+	$routes->add('menu/additem', 'Menu::additem');							// Done
+	$routes->add('menu/updateitem', 'Menu::updateitem');					// Done
+	$routes->add('menu/detailitem/(:num)', 'Menu::detailitem/$1');			// Done
+	$routes->add('menu/deleteitem/(:num)', 'Menu::deleteitem/$1');			// Done
 	// -------- Widget --------
-	$routes->add('widget', 'Widget::index');						// --
-	$routes->add('widget/add', 'Widget::add');						// --
-	$routes->add('widget/edit/(:num)', 'Widget::edit/$1');				// --
-	$routes->add('widget/delete/(:num)', 'Widget::delete/$1');			// --
+	$routes->add('widget', 'Widget::index');								// Done
+	$routes->add('widget/default/(:alphanum)', 'Widget::default/$1');		// Done
+	$routes->add('widget/add', 'Widget::add');								// Done
+	$routes->add('widget/setorder', 'Widget::setorder');					// Done
+	$routes->add('widget/edit', 'Widget::edit');							// Done
+	$routes->add('widget/delete/(:num)', 'Widget::delete/$1');				// Done
 	// -------- Setting --------
-	$routes->add('setting', 'Setting::index');						// --
-	$routes->add('setting/contact', 'Setting::contact');			// --
+	$routes->add('setting', 'Setting::index');								// Done
+	$routes->add('setting/save', 'Setting::save');							// Done
+	$routes->add('setting/contact', 'Setting::contact');					// Done
 	// -------- User --------
-	$routes->add('users', 'Users::index'); 							// Done
-	$routes->add('user/add', 'Users::add'); 						// Done
-	$routes->add('user/edit/(:num)', 'Users::edit/$1'); 			// Done
-	$routes->add('user/delete/(:alphanum)', 'Users::delete/$1'); 	// Done
-	$routes->add('profile', 'Users::profile'); 						// Done
-	$routes->add('logout', 'Logout::index'); 						// Done
+	$routes->add('users', 'Users::index'); 									// Done
+	$routes->add('user/add', 'Users::add'); 								// Done
+	$routes->add('user/edit/(:num)', 'Users::edit/$1'); 					// Done
+	$routes->add('user/delete/(:alphanum)', 'Users::delete/$1'); 			// Done
+	$routes->add('profile', 'Users::profile'); 								// Done
+	$routes->add('logout', 'Logout::index'); 								// Done
 });
-
-/**
- * --------------------------------------------------------------------
- * CONTROLLER DIRECTORI ROUTE PREVENT ACCESS
- * --------------------------------------------------------------------
- * 
- * you can setup public route on this below
- */
 
 /**
  * --------------------------------------------------------------------
@@ -110,11 +120,14 @@ $routes->group(ADMINURL, ['filter' => 'admin-auth'], function ($routes) {
  */
 $routes->group('', function($routes) {
 	$routes->setDefaultNamespace('App\Controllers\\'.FRONTEND);
+	// Prevent URL ---------------------------
 	$routes->add('frontend', 'Page::error');
 	$routes->add('backend', 'Page::error');
+	// Public URL ----------------------------
 	$routes->add('', 'Home::index'); // Homepage
-	$routes->add('asset/(:any)/(:any)', 'Asset::static/$1/$2'); // Asset Static file
-	$routes->add('(:any)', 'Page::view/$1'); // Dynamic Pages
+	$routes->add('asset/(:any)/preview.png', 'Asset::preview/$1'); // Preview image template
+	$routes->add('asset/(:any)/(:any)', 'Asset::static/$1/$2'); // Asset Static files
+	$routes->add('(:segment)', 'Page::view/$1'); // Dynamic Pages
 });
 
 /**

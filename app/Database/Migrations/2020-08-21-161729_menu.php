@@ -23,6 +23,14 @@ class Menu extends Migration
 			'deleted_at'       => [
 				'type'           => 'DATETIME',
 			],
+			'user_id'          => [
+				'type'           => 'INT',
+				'constraint'     => 11,
+			],
+			'role_id'          => [
+				'type'           => 'INT',
+				'constraint'     => 11,
+			],
 			'menu_group'       => [
 				'type'           => 'INT',
 				'constraint'     => 11,

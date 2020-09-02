@@ -12,7 +12,7 @@ class LoginAuth implements FilterInterface
 
         if (session()->login === true)
         {
-            return redirect('admin');
+            return redirect(ADMINURL);
         }
     }
 

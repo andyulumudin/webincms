@@ -12,6 +12,10 @@ class RoleRelation extends Migration
 				'type'           => 'INT',
 				'constraint'     => 11,
 			],
+			'object_type'       => [
+				'type'           => 'VARCHAR',
+				'constraint'     => '255',
+			],
 			'object_id'       => [
 				'type'           => 'INT',
 				'constraint'     => 11,

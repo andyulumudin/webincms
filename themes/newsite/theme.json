@@ -1,0 +1,65 @@
+{
+    "name": "New Site",
+    "description": "New Theme",
+    "version":"1.0",
+    "author": "",
+    "url": "",
+    "developer": "Andy",
+    "tags": "webincms",
+    "menu_position": [{
+        "position_name": "Main Menu",
+        "position_value": "main-menu",
+    },
+    {
+        "position_name": "Footer Menu",
+        "position_value": "footer-menu"
+    },
+    {
+        "position_name": "Quick Menu",
+        "position_value": "quick-menu",
+    }],
+    "widget_position": [{
+        "name": "Header",
+        "value": "header"
+    },
+    {
+        "name": "Body",
+        "value": "body"
+    },
+    {
+        "name": "Footer",
+        "value": "footer"
+    }],
+    "widgets": [{
+        "name": "Banner",
+        "value": "banner",
+        "inputs": [{
+            "label": "Description",
+            "type": "textarea",
+            "name": "description"
+        }]
+    },
+    {
+        "name": "Latest Post",
+        "value": "latest_post",
+        "inputs": [{
+            "label": "Title",
+            "type": "text",
+            "name": "title"
+        },
+        {
+            "label": "Description",
+            "type": "textarea",
+            "name": "description"
+        }]
+    },
+    {
+        "name": "Pages Tags",
+        "value": "pages_tags",
+        "inputs": [{
+            "label": "Description",
+            "type": "textarea",
+            "name": "description"
+        }]
+    }]
+}
