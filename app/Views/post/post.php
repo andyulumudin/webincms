@@ -5,16 +5,17 @@
 
 	<div class="page__toolbar">
 		<div>
-			
+			<h3 class="mods--title"><?= $title; ?></h3>
+			<div class="mods--subtitle"><?= $subtitle; ?></div>
 		</div>
 		<div>
-			<a href="<?= base_url('admin/post/add'); ?>" class="btn btn-sm btn-primary">Add Post</a>
+			<a data-fancybox data-type="iframe" href="<?= base_url(ADMINURL.'/post/section'); ?>" class="btn btn-sm btn-secondary">Section</a>
+			<a href="<?= base_url('admin/post/add'); ?>" class="btn btn-sm btn-primary ml-5">Add Post</a>
 		</div>
 	</div>
 
 	<div class="page__header">
-		<h1 class="page--title"><?= $title; ?></h1>
-		<div class="page--subtitle"><?= $subtitle; ?></div>
+		
 	</div>
 	<div class="page__content mt-10">
 	<?php if(session()->getFlashdata('info')) { ?>
@@ -43,6 +44,14 @@
 		</tbody>
 	</table>
 	</div>
-
 	
+<?= $this->endSection() ?>
+
+<?= $this->section('head') ?>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<?= $this->endSection() ?>
+
+<?= $this->section('script') ?>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <?= $this->endSection() ?>

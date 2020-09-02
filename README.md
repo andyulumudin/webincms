@@ -7,7 +7,7 @@ Download or clone files, and extract to you directory
 ## Setup
 
 Create database and update `.env` file.
-Open terminal, and write this commang `php spark migrage` and then `php spark db:seed DefaultUser`
+Open terminal, and write this commang `php spark migrate` and then `php spark db:seed DefaultUser`
 
 ## Start the app/website
 

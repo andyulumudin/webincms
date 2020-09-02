@@ -42,9 +42,9 @@ if(in_array($mod, $content_list)) {
                 ACTION
             </div>
             <ul id="content__nav" class="sidebar__nav--list">
-                <li><a href="<?= base_url('admin/post'); ?>" class="<?= ($mod == 'post'?'active':''); ?>">Post</a></li>
-                <li><a href="<?= base_url('admin/page'); ?>" class="<?= ($mod == 'page'?'active':''); ?>">Page</a></li>
-                <li><a href="<?= base_url('admin/media'); ?>" class="<?= ($mod == 'media'?'active':''); ?>">Media</a></li>
+                <li><a href="<?= base_url(ADMINURL.'/post'); ?>" class="<?= ($mod == 'post'?'active':''); ?>">Post</a></li>
+                <li><a href="<?= base_url(ADMINURL.'/page'); ?>" class="<?= ($mod == 'page'?'active':''); ?>">Page</a></li>
+                <li><a href="<?= base_url(ADMINURL.'/media'); ?>" class="<?= ($mod == 'media'?'active':''); ?>">Media</a></li>
             </ul>
         </div>
         <div id="appearance" class="sidebar__nav--wrapper <?= in_array($mod, $appearance_list)?'active':''; ?>">
@@ -52,9 +52,9 @@ if(in_array($mod, $content_list)) {
                 ACTION
             </div>
             <ul id="appearance__nav" class="sidebar__nav--list">
-                <li><a href="<?= base_url('admin/template'); ?>" class="<?= ($mod == 'template'?'active':''); ?>">Template</a></li>
-                <li><a href="<?= base_url('admin/menu'); ?>" class="<?= ($mod == 'menu'?'active':''); ?>">Menu</a></li>
-                <li><a href="<?= base_url('admin/widget'); ?>" class="<?= ($mod == 'widget'?'active':''); ?>">Widget</a></li>
+                <li><a href="<?= base_url(ADMINURL.'/template'); ?>" class="<?= ($mod == 'template'?'active':''); ?>">Template</a></li>
+                <li><a href="<?= base_url(ADMINURL.'/menu'); ?>" class="<?= ($mod == 'menu'?'active':''); ?>">Menu</a></li>
+                <li><a href="<?= base_url(ADMINURL.'/widget'); ?>" class="<?= ($mod == 'widget'?'active':''); ?>">Widget</a></li>
             </ul>
         </div>
         <div id="setting" class="sidebar__nav--wrapper <?= in_array($mod, $setting_list)?'active':''; ?>">
@@ -62,9 +62,9 @@ if(in_array($mod, $content_list)) {
                 ACTION
             </div>
             <ul id="setting__nav" class="sidebar__nav--list">
-                <li><a href="<?= base_url('admin/setting'); ?>" class="<?= ($mod == 'setting'?'active':''); ?>">General</a></li>
-                <li><a href="<?= base_url('admin/files'); ?>" class="<?= ($mod == 'files'?'active':''); ?>">Files</a></li>
-                <li><a href="<?= base_url('admin/users'); ?>" class="<?= ($mod == 'users'?'active':''); ?>">Users</a></li>
+                <li><a href="<?= base_url(ADMINURL.'/setting'); ?>" class="<?= ($mod == 'setting'?'active':''); ?>">General</a></li>
+                <li><a href="<?= base_url(ADMINURL.'/files'); ?>" class="<?= ($mod == 'files'?'active':''); ?>">Files</a></li>
+                <li><a href="<?= base_url(ADMINURL.'/users'); ?>" class="<?= ($mod == 'users'?'active':''); ?>">Users</a></li>
             </ul>
         </div>
         <div id="user" class="sidebar__nav--wrapper <?= ($mod == 'profile'?'active':''); ?>">
@@ -72,9 +72,9 @@ if(in_array($mod, $content_list)) {
                 ACTION
             </div>
             <ul id="user__nav" class="sidebar__nav--list">
-                <li><a href="<?= base_url('admin/profile'); ?>" class="<?= ($mod == 'profile'?'active':''); ?>">My Profile</a></li>
+                <li><a href="<?= base_url(ADMINURL.'/profile'); ?>" class="<?= ($mod == 'profile'?'active':''); ?>">My Profile</a></li>
                 <li class="divider"></li>
-                <li><a href="<?= base_url('admin/logout'); ?>" onclick="return confirm('Are you want to logout?');">Logout</a></li>
+                <li><a href="<?= base_url(ADMINURL.'/logout'); ?>" onclick="return confirm('Are you want to logout?');">Logout</a></li>
             </ul>
         </div>
     </div>

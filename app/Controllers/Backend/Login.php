@@ -35,9 +35,9 @@ class Login extends AuthController
 				];
 				
 				session()->set($userData);
-				return redirect('admin');
+				return redirect(ADMINURL);
 			} else {
-				return redirect('admin/login');
+				return redirect(ADMINURL.'/login');
 			}	
 		}
 		   

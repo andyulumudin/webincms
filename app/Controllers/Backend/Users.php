@@ -59,7 +59,7 @@ class Users extends AuthController
 			if($updated)
 			{
 				session()->setFlashdata('alert', 'Updated profile successfully');
-				return redirect()->to(base_url('admin/profile')); 
+				return redirect()->to(base_url(ADMINURL.'/profile')); 
 			}
 		}
 	}
@@ -101,7 +101,7 @@ class Users extends AuthController
 			if($saved)
 			{
 				session()->setFlashdata('info', 'Add user successfully');
-				return redirect()->to(base_url('admin/users'));
+				return redirect()->to(base_url(ADMINURL.'/users'));
 			}
 		}
     }
@@ -146,7 +146,7 @@ class Users extends AuthController
 			if($updated)
 			{
 				session()->setFlashdata('alert', 'Updated user successfully');
-				return redirect()->to(base_url('admin/users')); 
+				return redirect()->to(base_url(ADMINURL.'/users')); 
 			}
 		}
 	}
@@ -160,7 +160,7 @@ class Users extends AuthController
         if($deleted)
         {
             session()->setFlashdata('info', 'Deleted user successfully');
-            return redirect()->to(base_url('admin/users'));
+            return redirect()->to(base_url(ADMINURL.'/users'));
         }
     }
 

@@ -29,6 +29,28 @@ class Asset extends BaseController
 		
 	}
 
+	public function preview($theme = '')
+	{
+		$file = ROOTPATH.'/themes/'.$theme.'/preview.png';
+		if ( ! file_exists($file))
+		{
+			// Whoops, we don't have a page for that!
+			// throw new \CodeIgniter\Exceptions\PageNotFoundException($page);
+			$file = ROOTPATH.'/themes/blank.png';
+		}
+
+		$filename = $file;
+
+		$xfile = explode('.', $file);
+		$ext = end($xfile);
+		header('Content-Type: image/'.$ext);
+		header('Content-Length: ' . filesize($filename));
+		$getfile = fopen($filename, "r") or die("Unable to open file!");
+		echo fread($getfile,filesize($filename));
+		fclose($filename);
+		
+	}
+
 	//--------------------------------------------------------------------
 
 }

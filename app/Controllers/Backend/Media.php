@@ -40,6 +40,7 @@ class Media extends AuthController
 			$body = htmlentities($this->request->getPost('body'));
 			$publish_date = date('Y-m-d');
 			$publish = $this->request->getPost('publish');
+			$language = $this->request->getPost('language');
 			$tags = $this->request->getPost('tags');
 			
 			$data = [
@@ -52,6 +53,7 @@ class Media extends AuthController
 				'content_body' => $body,
 				'content_tags' => $tags,
 				'content_publish_date' => $publish_date,
+				'content_lang' => $language,
 				'content_status' => $publish,
 			];
 			
@@ -70,7 +72,7 @@ class Media extends AuthController
 	public function edit($id)
 	{
 		$rules = [
-			'title' => 'required|is_unique[content.content_title]',
+			'title' => 'required|is_unique[content.content_title, content_id, {id}]',
 			'body' => 'required',
 		];
 
@@ -89,6 +91,7 @@ class Media extends AuthController
 			$slug = url_title($title, '-', true);
 			$body = htmlentities($this->request->getPost('body'));
 			$publish = $this->request->getPost('publish');
+			$language = $this->request->getPost('language');
 			$tags = $this->request->getPost('tags');
 
 			$data = [
@@ -98,13 +101,14 @@ class Media extends AuthController
 				'content_body' => $body,
 				'content_tags' => $tags,
 				'content_status' => $publish,
+				'content_lang' => $language,
 			];
 			
 			$saved = $this->content->updateContent($data, $id);
 			
 			if($saved)
 			{
-				session()->setFlashdata('info', 'Media has been added');
+				session()->setFlashdata('info', 'Media has been updated');
 				return redirect()->to(base_url('admin/media'));
 			}
 		}

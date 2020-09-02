@@ -6,8 +6,15 @@ class Page extends BaseController
 	{
 		if ( ! file_exists(ROOTTHEME.'/pages/'.$page.'.php'))
 		{
-			// Page/find not found!
-			return view(THEMEVIEW.'/404');
+			// Get from ADMINURL/setting/save
+			$adminurl = session()->getFlashdata('adminurl');
+			if($adminurl == '') {
+				// Page/find not found!
+				return view(THEMEVIEW.'/404');
+			} else {
+				// Redirect to new admin
+				return redirect($adminurl.'/setting');
+			}
 		}
 		
 		return view(THEMEVIEW.'/pages/'.$page);

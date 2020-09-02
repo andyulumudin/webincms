@@ -10,9 +10,9 @@ class AdminAuth implements FilterInterface
     {
         // Authentication Check
 
-        if (session()->login === false)
+        if (!session()->login)
         {
-            return redirect('admin/login');
+            return redirect(ADMINURL.'/login');
         }
     }
 
